@@ -52,7 +52,7 @@ This module adds an C<AUTOLOAD> method to L<Git::Repository>, enabling
 it to automagically call git commands as methods on L<Git::Repository>
 objects.
 
-=head1 METHOD
+=head1 METHODS
 
 =head2 AUTOLOAD
 
@@ -77,6 +77,7 @@ subprocess?), so that plugins adding new methods always take precedence.
 
 =head1 SEE ALSO
 
+L<Git::Repository>,
 L<Git::Repository::Plugin>.
 
 =head1 COPYRIGHT
