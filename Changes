@@ -2,6 +2,12 @@ Revision history for Git-Repository-Plugin-AUTOLOAD
 
 {{$NEXT}}
 
+1.002 Tue Feb 2 2016
+    - Prevent system/global configs from messing with test expectations
+      (Fix for RT #111645, reported by DBOOK)
+    - Load Config when using %Config
+      (Fix for RT #100806, reported by PPISAR)
+
 1.001 Sun Feb 23 2014
     - skip t/autoload.t when running against git older than 1.5.0
 
