@@ -24,9 +24,13 @@ sub AUTOLOAD {
 
 1;
 
-# ABSTRACT: Git subcommands as Git::Repository methods
+__END__
 
 =pod
+
+=head1 NAME
+
+Git::Repository::Plugin::AUTOLOAD - Git subcommands as Git::Repository methods
 
 =head1 SYNOPSIS
 
@@ -80,9 +84,13 @@ subprocess?), so that plugins adding new methods always take precedence.
 L<Git::Repository>,
 L<Git::Repository::Plugin>.
 
+=head1 AUTHOR
+
+Philippe Bruhat (BooK) <book@cpan.org>.
+
 =head1 COPYRIGHT
 
-Copyright 2014 Philippe Bruhat (BooK), all rights reserved.
+Copyright 2014-2016 Philippe Bruhat (BooK), all rights reserved.
 
 =head1 LICENSE
 
