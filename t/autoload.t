@@ -2,11 +2,12 @@ use strict;
 use warnings;
 use Test::More;
 use Test::Git;
+use Test::Requires::Git;
 use File::Temp qw( tempdir );
 use File::Spec::Functions qw( catfile catdir );
 use Git::Repository qw( AUTOLOAD );
 
-has_git('1.5.0');
+test_requires_git '1.5.0';
 
 # setup the environment
 my %env = (
